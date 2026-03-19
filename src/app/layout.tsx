@@ -114,7 +114,7 @@ export default function RootLayout({
                 "서울 서초구 반포동 비건 새치 전문 미용실. Villa Lodola 100% 비건 염색, 영국 비달사순 프리시전 커트, 밀본 공식 사용 매장.",
               url: "https://jemigong.com",
               image: "https://jemigong.com/images/logo/og-preview.jpg",
-              telephone: "+82-02-534-5678",
+              telephone: "+82-0507-1341-7524",
               address: {
                 "@type": "PostalAddress",
                 streetAddress: "서초중앙로29길 26 1층 101호",

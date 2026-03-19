@@ -43,13 +43,16 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Divider */}
+        {/* Business Info */}
         <div className="border-t border-text-light/10 mt-8 pt-6">
-          <p className="text-xs text-text-light/30 text-center font-sans">
-            © 2026 제미공 반포 본점 JEMIGONG HAIR BANPO. All rights reserved.
+          <p className="text-xs text-text-light/30 text-center font-sans leading-relaxed">
+            상호 : 제미공 | 대표 : 전미라 | 사업자등록번호 : 753-33-01789
           </p>
-          <p className="text-xs text-text-light/20 text-center mt-1 font-sans">
-            서울특별시 서초구 서초중앙로29길 26 1층 101호
+          <p className="text-xs text-text-light/30 text-center mt-1 font-sans leading-relaxed">
+            주소 : 서울특별시 서초구 서초중앙로29길 26, 1층 101호 (반포동) | 전화번호 : 0507-1341-7524
+          </p>
+          <p className="text-xs text-text-light/20 text-center mt-3 font-sans">
+            Copyright © 2026 제미공. All rights reserved.
           </p>
         </div>
       </div>
