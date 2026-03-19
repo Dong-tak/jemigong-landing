@@ -7,6 +7,7 @@ import ProductsSection from "@/components/ProductsSection";
 import ReviewSection from "@/components/ReviewSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
+import KakaoChatButton from "@/components/KakaoChatButton";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <ReviewSection />
       <ContactSection />
       <Footer />
+      <KakaoChatButton />
     </main>
   );
 }
