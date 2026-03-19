@@ -36,7 +36,7 @@ export default function BrandStorySection() {
             Credentials
           </p>
           <h3 className="font-serif text-2xl md:text-3xl font-semibold text-center text-text-primary mb-12">
-            40년 경력의 전문성
+            검증된 기술과 전문성
           </h3>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
