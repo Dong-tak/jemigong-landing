@@ -8,6 +8,6 @@ export default function robots(): MetadataRoute.Robots {
         allow: "/",
       },
     ],
-    sitemap: "https://jemigong-landing.vercel.app/sitemap.xml",
+    sitemap: "https://jemigong.com/sitemap.xml",
   };
 }

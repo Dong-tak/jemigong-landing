@@ -47,14 +47,14 @@ export const metadata: Metadata = {
     telephone: true,
     email: false,
   },
-  metadataBase: new URL("https://jemigong-landing.vercel.app"),
+  metadataBase: new URL("https://jemigong.com"),
   alternates: {
     canonical: "/",
   },
   openGraph: {
     type: "website",
     locale: "ko_KR",
-    url: "https://jemigong-landing.vercel.app",
+    url: "https://jemigong.com",
     siteName: "제미공 반포 본점",
     title: "제미공 반포 본점 | 프리미엄 비건 새치염색 & 사순 커트 전문",
     description:
@@ -109,8 +109,8 @@ export default function RootLayout({
               alternateName: "JEMIGONG HAIR BANPO",
               description:
                 "서울 서초구 반포동 비건 새치 전문 미용실. Villa Lodola 100% 비건 염색, 영국 비달사순 프리시전 커트, 밀본 공식 사용 매장.",
-              url: "https://jemigong-landing.vercel.app",
-              image: "https://jemigong-landing.vercel.app/images/store/interior-main.jpg",
+              url: "https://jemigong.com",
+              image: "https://jemigong.com/images/store/interior-main.jpg",
               telephone: "+82-02-534-5678",
               address: {
                 "@type": "PostalAddress",
@@ -134,7 +134,6 @@ export default function RootLayout({
                 },
               ],
               priceRange: "₩₩₩",
-              servesCuisine: undefined,
               hasOfferCatalog: {
                 "@type": "OfferCatalog",
                 name: "시술 메뉴",
