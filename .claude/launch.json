@@ -3,9 +3,10 @@
   "configurations": [
     {
       "name": "jemigong-dev",
-      "runtimeExecutable": "/Users/tak-e/.nvm/versions/node/v20.18.0/bin/npm",
-      "runtimeArgs": ["run", "dev"],
-      "port": 3000
+      "runtimeExecutable": "/Users/tak-e/.nvm/versions/node/v20.18.0/bin/node",
+      "runtimeArgs": ["/Users/tak-e/develop/jemigong-landing/node_modules/next/dist/bin/next", "dev"],
+      "port": 3000,
+      "autoPort": true
     }
   ]
 }
