@@ -41,7 +41,9 @@ export default function ContactSection() {
                 Address
               </p>
               <p className="text-text-primary text-base font-medium font-sans leading-relaxed">
-                서울특별시 서초구 반포동
+                서울 서초구 서초중앙로29길 26
+                <br />
+                1층 101호
               </p>
             </div>
 
@@ -51,9 +53,8 @@ export default function ContactSection() {
                 Hours
               </p>
               <div className="text-text-primary text-base font-sans space-y-1">
-                <p>평일 10:00 – 20:00</p>
-                <p>토요일 10:00 – 18:00</p>
-                <p className="text-text-secondary text-sm">일요일·공휴일 휴무</p>
+                <p>매일 10:00 – 19:00</p>
+                <p className="text-text-secondary text-sm">19:00 영업 종료</p>
               </div>
             </div>
 

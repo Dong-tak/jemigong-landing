@@ -131,9 +131,9 @@ export default function RootLayout({
               openingHoursSpecification: [
                 {
                   "@type": "OpeningHoursSpecification",
-                  dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+                  dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
                   opens: "10:00",
-                  closes: "20:00",
+                  closes: "19:00",
                 },
               ],
               priceRange: "₩₩₩",
