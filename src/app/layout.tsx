@@ -17,7 +17,7 @@ const notoSansKR = Noto_Sans_KR({
 export const metadata: Metadata = {
   title: "제미공 반포 본점 | 프리미엄 비건 새치염색 & 사순 커트 전문 미용실",
   description:
-    "서울 서초구 반포동 비건 새치 전문 미용실. Villa Lodola 100% 비건 염색, 영국 비달사순 프리시전 커트, 밀본 공식 사용 매장. 두피에 닿는 순간까지 자연주의 철학을 담은 안심 시술.",
+    "제미공 헤어 - 서울 서초구 반포동 비건 새치 전문 미용실. Villa Lodola 100% 비건 염색, 영국 비달사순 프리시전 커트, 밀본 공식 사용 매장. 두피에 닿는 순간까지 자연주의 철학을 담은 안심 시술.",
   keywords: [
     "비건 염색",
     "새치 염색",
@@ -31,6 +31,10 @@ export const metadata: Metadata = {
     "밀본",
     "두피 케어",
     "제미공",
+    "제미공헤어",
+    "제미공 헤어",
+    "제미공 헤어살롱",
+    "제미공 미용실",
     "제미공 반포",
     "프리미엄 미용실",
     "40대 미용실",
@@ -112,7 +116,7 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "HairSalon",
               name: "제미공 반포 본점",
-              alternateName: "JEMIGONG HAIR BANPO",
+              alternateName: ["JEMIGONG HAIR BANPO", "제미공헤어", "제미공 헤어", "제미공 미용실"],
               description:
                 "서울 서초구 반포동 비건 새치 전문 미용실. Villa Lodola 100% 비건 염색, 영국 비달사순 프리시전 커트, 밀본 공식 사용 매장.",
               url: "https://jemigong.com",
