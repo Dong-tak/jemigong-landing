@@ -70,6 +70,22 @@ export default function HeroSection() {
             >
               네이버 예약하기
             </a>
+
+            {/* Franchise Info */}
+            <div className="mt-10 pt-6 border-t border-text-light/15 max-w-[360px]">
+              <p className="text-text-light/50 text-[11px] font-sans tracking-[0.15em]">
+                가맹 문의
+              </p>
+              <p className="text-text-light/80 text-sm font-sans mt-1.5">
+                제미공 비건 염색전문 프랜차이즈
+              </p>
+              <p className="text-text-light/45 text-xs font-sans mt-1">
+                가맹비용 없음 ·{" "}
+                <a href="tel:050713417524" className="underline underline-offset-2 decoration-text-light/20 hover:text-text-light/70 transition-colors">
+                  0507-1341-7524
+                </a>
+              </p>
+            </div>
           </div>
 
           {/* Right: 시술 결과 캐러셀 */}
