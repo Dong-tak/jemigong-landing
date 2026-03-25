@@ -46,7 +46,7 @@ export default function Footer() {
         {/* Business Info */}
         <div className="border-t border-text-light/10 mt-8 pt-6">
           <p className="text-xs text-text-light/30 text-center font-sans leading-relaxed">
-            상호 : 제미공 | 대표 : 전미라 | 사업자등록번호 : 753-33-01789
+            상호 : 제미공 (제미공헤어 · 제미공 본점) | 대표 : 전미라 | 사업자등록번호 : 753-33-01789
           </p>
           <p className="text-xs text-text-light/30 text-center mt-1 font-sans leading-relaxed">
             주소 : 서울특별시 서초구 서초중앙로29길 26, 1층 101호 (반포동) | 전화번호 : 0507-1341-7524

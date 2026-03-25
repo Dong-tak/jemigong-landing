@@ -44,7 +44,7 @@ export default function HeroSection() {
           <div>
             {/* Sub Label */}
             <p className="text-sm tracking-[0.25em] text-text-light/60 uppercase mb-6 font-sans">
-              Premium Vegan Hair Salon · Banpo
+              제미공헤어 반포 본점 · Premium Vegan Hair Salon
             </p>
 
             {/* Main Catchphrase */}
