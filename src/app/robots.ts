@@ -7,6 +7,10 @@ export default function robots(): MetadataRoute.Robots {
         userAgent: "*",
         allow: "/",
       },
+      {
+        userAgent: "Yeti",
+        allow: "/",
+      },
     ],
     sitemap: "https://jemigong.com/sitemap.xml",
   };

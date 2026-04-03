@@ -49,6 +49,7 @@ export default function HeroSection() {
 
             {/* Main Catchphrase */}
             <h1 className="font-serif text-[28px] md:text-5xl lg:text-[56px] font-bold leading-[1.2] mb-6">
+              <span className="sr-only">제미공헤어 - </span>
               두피에 닿는 순간까지
               <br />
               편안하게.

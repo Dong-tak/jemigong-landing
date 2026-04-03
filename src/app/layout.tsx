@@ -15,9 +15,9 @@ const notoSansKR = Noto_Sans_KR({
 });
 
 export const metadata: Metadata = {
-  title: "제미공 반포 본점 | 프리미엄 비건 새치염색 & 사순 커트 전문 미용실",
+  title: "제미공헤어 반포 본점 | 비건 새치염색 & 사순 커트 전문 미용실 제미공",
   description:
-    "제미공 헤어 - 서울 서초구 반포동 비건 새치 전문 미용실. Villa Lodola 100% 비건 염색, 영국 비달사순 프리시전 커트, 밀본 공식 사용 매장. 두피에 닿는 순간까지 자연주의 철학을 담은 안심 시술.",
+    "제미공헤어(제미공 헤어) 반포 본점 - 서울 서초구 반포동 비건 새치 전문 미용실. Villa Lodola 100% 비건 염색, 영국 비달사순 프리시전 커트, 밀본 공식 사용 매장. 두피에 닿는 순간까지 자연주의 철학을 담은 안심 시술.",
   keywords: [
     "비건 염색",
     "새치 염색",
@@ -62,9 +62,9 @@ export const metadata: Metadata = {
     locale: "ko_KR",
     url: "https://jemigong.com",
     siteName: "제미공 반포 본점",
-    title: "제미공 반포 본점 | 프리미엄 비건 새치염색 & 사순 커트 전문",
+    title: "제미공헤어 반포 본점 | 비건 새치염색 & 사순 커트 전문 미용실",
     description:
-      "서울 서초구 반포동 비건 새치 전문 미용실. Villa Lodola 100% 비건 염색, 영국 비달사순 프리시전 커트. 두피에 닿는 순간까지 자연주의 철학을 담은 안심 시술.",
+      "제미공헤어(제미공 헤어) 반포 본점 - 서울 서초구 반포동 비건 새치 전문 미용실. Villa Lodola 100% 비건 염색, 비달사순 프리시전 커트. 자연주의 철학을 담은 안심 시술.",
     images: [
       {
         url: "/images/logo/og-preview.jpg",
@@ -76,9 +76,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "제미공 반포 본점 | 비건 새치염색 & 사순 커트 전문",
+    title: "제미공헤어 반포 본점 | 비건 새치염색 & 사순 커트 전문",
     description:
-      "서울 서초구 반포동 비건 새치 전문 미용실. Villa Lodola 100% 비건 염색, 비달사순 프리시전 커트.",
+      "제미공헤어 반포 본점 - 서울 서초구 반포동 비건 새치 전문 미용실. Villa Lodola 100% 비건 염색, 비달사순 프리시전 커트.",
     images: ["/images/logo/og-preview.jpg"],
   },
   robots: {
@@ -117,10 +117,10 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "HairSalon",
-              name: "제미공 반포 본점",
-              alternateName: ["JEMIGONG HAIR BANPO", "제미공헤어", "제미공 헤어", "제미공 미용실"],
+              name: "제미공헤어 반포 본점",
+              alternateName: ["제미공헤어", "제미공 헤어", "JEMIGONG HAIR BANPO", "제미공 미용실", "제미공", "제미공 반포"],
               description:
-                "서울 서초구 반포동 비건 새치 전문 미용실. Villa Lodola 100% 비건 염색, 영국 비달사순 프리시전 커트, 밀본 공식 사용 매장.",
+                "제미공헤어 반포 본점 - 서울 서초구 반포동 비건 새치 전문 미용실. Villa Lodola 100% 비건 염색, 영국 비달사순 프리시전 커트, 밀본 공식 사용 매장.",
               url: "https://jemigong.com",
               image: "https://jemigong.com/images/logo/og-preview.jpg",
               telephone: "+82-0507-1341-7524",
