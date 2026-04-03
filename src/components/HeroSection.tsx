@@ -73,7 +73,7 @@ export default function HeroSection() {
             </a>
 
             {/* Franchise Info */}
-            <div className="mt-10 pt-6 border-t border-text-light/15 max-w-[360px]">
+            <div className="mt-10 max-w-[360px] border-l-2 border-accent/60 pl-4">
               <p className="text-text-light/50 text-[11px] font-sans tracking-[0.15em]">
                 가맹 문의
               </p>
