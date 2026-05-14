@@ -20,7 +20,10 @@ const products = [
 
 export default function ProductsSection() {
   return (
-    <section id="products" className="py-24 md:py-32 bg-bg-green-tint">
+    <section
+      id="products"
+      className="py-24 md:py-32 bg-bg-ivory border-t border-border"
+    >
       <div className="max-w-[1200px] mx-auto px-6">
         {/* Section Label */}
         <p className="text-xs tracking-[0.25em] text-secondary uppercase text-center mb-6 font-sans">
