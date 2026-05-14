@@ -4,10 +4,10 @@ import { useState } from "react";
 import Image from "next/image";
 
 const navLinks = [
+  { label: "미디어", href: "#media" },
+  { label: "사용 제품", href: "#products" },
   { label: "브랜드 철학", href: "#brand-story" },
   { label: "시술 안내", href: "#service" },
-  { label: "가격 안내", href: "#pricing" },
-  { label: "사용 제품", href: "#products" },
   { label: "오시는 길", href: "#contact" },
 ];
 

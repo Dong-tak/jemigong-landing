@@ -28,53 +28,24 @@ export default function ProductsSection() {
         </p>
 
         <h2 className="font-serif text-3xl md:text-4xl font-semibold text-center text-text-primary leading-snug mb-4">
-          검증된 프리미엄, 밀본
+          빌라로도라 염색약과 밀본 제품
         </h2>
 
         <p className="text-base text-text-secondary text-center max-w-[560px] mx-auto mb-16 font-sans">
-          글로벌 프리미엄 헤어 브랜드 밀본(Milbon)의 공식 사용 매장입니다.
+          두피에 닿는 염색약부터 마무리 케어 제품까지,
           <br />
-          최상의 제품으로 최상의 결과를 약속합니다.
+          제미공이 직접 선택한 프리미엄 라인으로 관리합니다.
         </p>
 
-        {/* Product Cards - 3 Columns */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          {products.map((product, index) => (
-            <div
-              key={index}
-              className="bg-white border border-border rounded-xl overflow-hidden hover:shadow-lg transition-shadow"
-            >
-              {/* Product Image */}
-              <div className="relative h-[220px] bg-bg-cream overflow-hidden">
-                <Image
-                  src={product.image}
-                  alt={product.name}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-
-              {/* Content */}
-              <div className="p-6">
-                <h3 className="font-serif text-lg font-semibold text-text-primary mb-2">
-                  {product.name}
-                </h3>
-                <p className="text-sm text-text-secondary leading-relaxed font-sans">
-                  {product.description}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
-
         {/* Villa Lodola Feature */}
-        <div className="bg-white border border-border rounded-xl overflow-hidden">
+        <div className="bg-white border border-border rounded-xl overflow-hidden mb-16">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="relative h-[300px] md:h-auto bg-bg-cream overflow-hidden">
               <Image
                 src="/images/products/villa-lodola-wood.png"
                 alt="Villa Lodola 비건 염색"
                 fill
+                sizes="(min-width: 768px) 50vw, 100vw"
                 className="object-cover"
               />
             </div>
@@ -105,6 +76,37 @@ export default function ProductsSection() {
               </ul>
             </div>
           </div>
+        </div>
+
+        {/* Product Cards - 3 Columns */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {products.map((product, index) => (
+            <div
+              key={index}
+              className="bg-white border border-border rounded-xl overflow-hidden hover:shadow-lg transition-shadow"
+            >
+              {/* Product Image */}
+              <div className="relative h-[220px] bg-bg-cream overflow-hidden">
+                <Image
+                  src={product.image}
+                  alt={product.name}
+                  fill
+                  sizes="(min-width: 768px) 33vw, 100vw"
+                  className="object-cover"
+                />
+              </div>
+
+              {/* Content */}
+              <div className="p-6">
+                <h3 className="font-serif text-lg font-semibold text-text-primary mb-2">
+                  {product.name}
+                </h3>
+                <p className="text-sm text-text-secondary leading-relaxed font-sans">
+                  {product.description}
+                </p>
+              </div>
+            </div>
+          ))}
         </div>
 
         {/* Milbon Official Partner Badge */}
